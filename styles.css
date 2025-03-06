@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+
+}
+
+
+.menu{
+    position:fixed;
+}
+
+.menu__list{
+    display:none;
+
+}
+
+.menu__list.open{
+    display:flex;
+}
+
+.main{
+    background-color: rgb(223, 219, 219);
+    min-height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input:invalid{
+    border: 2px red solid;
+
+}
+
+.input:invalid + .hint{
+    display:inline-block;
+}
+
+.hint{
+    color: red;
+    display:none;
+}
+
